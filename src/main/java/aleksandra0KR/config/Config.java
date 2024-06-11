@@ -2,11 +2,14 @@ package aleksandra0KR.config;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-@Data
+@Getter
+@Setter
 @Component
 @PropertySource(value = "classpath:vkCallback.properties")
 public class Config {
