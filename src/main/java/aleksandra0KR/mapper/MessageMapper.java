@@ -18,7 +18,7 @@ public class MessageMapper {
     Map<String, Object> objectMessage = (Map<String, Object>) object.get("message");
 
     MessageResponse messageResponse = new MessageResponse();
-    messageResponse.setMessage( "Вы сказали: ".concat(String.valueOf(objectMessage.get("text"))));
+    messageResponse.setMessage("Вы сказали: ".concat(String.valueOf(objectMessage.get("text"))));
     messageResponse.setUserId(Long.parseLong(String.valueOf(objectMessage.get("from_id"))));
     messageResponse.setRandomId(random.nextLong());
 

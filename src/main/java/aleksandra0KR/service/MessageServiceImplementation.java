@@ -8,7 +8,6 @@ import aleksandra0KR.exceptions.UnsupportedRequest;
 import aleksandra0KR.mapper.MessageMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.net.URI;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
